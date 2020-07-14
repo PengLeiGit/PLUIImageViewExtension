@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1248667206@qq.com/PLUIImageViewExtension'
+  s.homepage         = 'https://github.com/PengLeiGit/PLUIImageViewExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1248667206@qq.com' => 'penglei@theduapp.com' }
-  s.source           = { :git => 'https://github.com/1248667206@qq.com/PLUIImageViewExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/PengLeiGit/PLUIImageViewExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
