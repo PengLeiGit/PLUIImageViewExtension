@@ -1,0 +1,15 @@
+use_frameworks!
+
+target 'PLUIImageViewExtension_Example' do
+  pod 'PLUIImageViewExtension', :path => '../'
+
+  target 'PLUIImageViewExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+  
+  pod "KingfisherWebP"
+  pod "Kingfisher"
+  pod "PLImageResizeMode"
+end

@@ -1,0 +1,47 @@
+PODS:
+  - Kingfisher (4.10.1)
+  - KingfisherWebP (0.4.2):
+    - Kingfisher (~> 4.0)
+    - libwebp (>= 0.5.0)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - PLImageResizeMode (0.1.1)
+  - PLUIImageViewExtension (0.1.0):
+    - Kingfisher
+    - KingfisherWebP
+    - PLImageResizeMode
+
+DEPENDENCIES:
+  - Kingfisher
+  - KingfisherWebP
+  - PLImageResizeMode
+  - PLUIImageViewExtension (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
+    - PLImageResizeMode
+
+EXTERNAL SOURCES:
+  PLUIImageViewExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  KingfisherWebP: 53632f3da248ccabd4999d775903d6ae0aaa7768
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  PLImageResizeMode: b1dd8290bbc81b9a14eaa9a1f77b66a1d00efe8f
+  PLUIImageViewExtension: 07552e0f581f43e1bf83a20ea47a09a3d0ca25dc
+
+PODFILE CHECKSUM: 19a888225a16bbf167f0aa9272d3f4457198fd1c
+
+COCOAPODS: 1.9.1

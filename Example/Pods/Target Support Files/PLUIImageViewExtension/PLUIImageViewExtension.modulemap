@@ -1,0 +1,6 @@
+framework module PLUIImageViewExtension {
+  umbrella header "PLUIImageViewExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
